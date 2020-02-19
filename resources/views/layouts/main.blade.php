@@ -55,10 +55,7 @@
     <!--Main layout-->
     <main>
         <div class="container">
-            @include('layouts.partido')
-            @include('layouts.resultados')
-            @include('layouts.productos')
-            @include('layouts.stats')
+            @yield('content')
         </div>
     </main>
     <!--Main layout-->
