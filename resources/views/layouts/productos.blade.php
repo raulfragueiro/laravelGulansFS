@@ -12,7 +12,7 @@
 
     <!--Card image-->
     <div class="view overlay">
-        <img src="img/images/CAMISETA_CALENTAR_GULANS_DEL.png" class="card-img-top"
+        <img src="{{ asset('mdbootstrap411/img/images/CAMISETA_CALENTAR_GULANS_DEL.png') }}" class="card-img-top"
         alt="">
         <a>
         <div class="mask rgba-white-slight"></div>
@@ -50,7 +50,7 @@
 
     <!--Card image-->
     <div class="view overlay">
-        <img src="img/images/CAMISETA_GULANSFS_DEL.jpg" class="card-img-top" alt="">
+        <img src="{{ asset('mdbootstrap411/img/images/CAMISETA_GULANSFS_DEL.jpg') }}" class="card-img-top" alt="">
         <a>
         <div class="mask rgba-white-slight"></div>
         </a>
@@ -87,7 +87,7 @@
 
     <!--Card image-->
     <div class="view overlay">
-        <img src="/img/images/SUDADERA.jpg" class="card-img-top"
+        <img src="{{ asset('mdbootstrap411//img/images/SUDADERA.jpg') }}" class="card-img-top"
         alt="">
         <a>
         <div class="mask rgba-white-slight"></div>
@@ -126,7 +126,7 @@
 
     <!--Card image-->
     <div class="view overlay">
-        <img src="/img/images/POLO_GULANSFS.png" class="card-img-top"
+        <img src="{{ asset('mdbootstrap411/img/images/POLO_GULANSFS.png') }}" class="card-img-top"
         alt="">
         <a>
         <div class="mask rgba-white-slight"></div>

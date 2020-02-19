@@ -7,7 +7,7 @@
 <!--Grid columna-->
 <div class="col-md-6 mb-4">
 
-    <img src="img/images/JOR17vsMargolariPArtido.png" class="img-fluid z-depth-1-half"
+    <img src="{{ asset('mdbootstrap411/img/images/JOR17vsMargolariPArtido.png') }}" class="img-fluid z-depth-1-half"
     alt="">
 
 </div>

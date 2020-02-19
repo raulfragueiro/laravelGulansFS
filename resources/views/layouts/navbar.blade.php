@@ -4,7 +4,7 @@
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="index.html" target="_blank">
-          <img src="img/images/logo.png" height="50">
+          <img src="{{ asset('mdbootstrap411/img/images/logo.png') }}" height="50">
         </a>
 
         <!-- Collapse -->
@@ -88,7 +88,7 @@
 
         <!--Primer slide-->
         <div class="carousel-item active">
-          <div class="view " style="background-image: url('img/images/foto4.jpeg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="view " style="background-image: url({{ asset('mdbootstrap411/img/images/foto4.jpeg') }}); background-repeat: no-repeat; background-size: cover;">
 
             <!-- Mascara-->
             <div class="mask rgba-black-light">
@@ -102,7 +102,7 @@
 
         <!--Segundo slide-->
         <div class="carousel-item">
-          <div class="view" style="background-image: url('img/images/foto2.jpeg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="view" style="background-image: url({{ asset('mdbootstrap411/img/images/foto2.jpeg') }}); background-repeat: no-repeat; background-size: cover;">
 
             <!-- Mascara-->
             <div class="mask rgba-black-light">
@@ -116,7 +116,7 @@
 
         <!--Tercer slide-->
         <div class="carousel-item">
-          <div class="view" style="background-image: url('img/images/foto5.jpeg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="view" style="background-image: url({{ asset('mdbootstrap411/img/images/foto5.jpeg') }}); background-repeat: no-repeat; background-size: cover;">
 
             <!-- Mascara-->
             <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
