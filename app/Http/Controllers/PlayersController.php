@@ -11,4 +11,5 @@ class PlayersController extends Controller
         $jugadores = Players::paginate(5);
         return view('welcome',compact('jugadores'));
     }
+
 }

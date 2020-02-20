@@ -1,4 +1,14 @@
 @extends('layouts.main')
+@section('contentStyle')
+<style type="text/css">
+            html,
+            body,
+            header,
+            .carousel {
+                height: 60vh;
+            }
+</style>
+@endsection
 @section('content')
 @include('layouts.partido')
 @include('layouts.resultados')

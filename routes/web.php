@@ -25,3 +25,7 @@ Route::get('/club', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+
+Route::get('/plantilla', function () {
+    return view('plantilla');
+});

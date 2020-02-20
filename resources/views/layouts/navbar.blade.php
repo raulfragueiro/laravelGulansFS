@@ -35,7 +35,7 @@
               <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">Primer Equipo</a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Plantilla</a>
+                <a class="dropdown-item" href="/plantilla">Plantilla</a>
                 <a class="dropdown-item" href="#">Estadísticas</a>
                 <a class="dropdown-item" href="#">Liga Metropolitana</a>
                 <a class="dropdown-item" href="#">Agenda</a>

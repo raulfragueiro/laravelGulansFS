@@ -19,7 +19,7 @@
             body,
             header,
             .carousel {
-                height: 50vh;
+                height: 30vh;
             }
 
             @media (max-width: 740px) {
@@ -45,12 +45,33 @@
                     background: #929FBA !important;
                 }
             }
+
+            .player .team-number {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: #09891A;
+            border-radius: 50%;
+            color: #fff;
+            }
+
+            .player .team-number > span {
+            position: absolute;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+            }
+
+            
+
         </style>
     </head>
   <body>
 
     <!-- Start your project here-->  
-    
+    @yield('contentStyle')
     @include('layouts.navbar')
     <!--Main layout-->
     <main>
