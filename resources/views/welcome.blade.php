@@ -13,38 +13,6 @@
 <!--Grid columna-->
 <div class="col-lg-6 col-md-12 px-4">
 
-    <!--Primera fila-->
-    <div class="row text-center">
-    <div class="col-10">
-        <table id="dtBasicExample" class="table table-striped table-bordered" cellspacing="0" width="100%">
-        <thead class="green">
-            <tr>
-            <th class="th-sm">Part.
-            </th>
-            <th class="th-sm">Vic.
-            </th>
-            <th class="th-sm">Emp.
-            </th>
-            <th class="th-sm">Der.
-            </th>
-            <th class="th-sm">Goles
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-            <td>15</td>
-            <td>5</td>
-            <td>2</td>
-            <td>8</td>
-            <td>40</td>
-            </tr>
-        </tbody>
-        </table>
-    </div>
-    </div>
-    <!--/Primera fila-->
-
-
     <!--Segunda fila-->
     <div class="row">
     <div class="col-10">
@@ -52,8 +20,6 @@
         <table id="dtBasicExample" class="table table-striped table-bordered text-center" cellspacing="0" width="100%">
         <thead class="green">
             <tr>
-            <th class="th-sm">
-            </th>
             <th class="th-sm">Nombre
             </th>
             <th class="th-sm">Goles.
@@ -63,24 +29,13 @@
             </tr>
         </thead>
         <tbody>
+        @foreach ($jugadores as $jugadores)
             <tr>
-            <td><img src="/img/images/jugador.png" height="20"></td>
-            <td>David Fernandez</td>
-            <td>8</td>
-            <td>8</td>
+            <td>{{$jugadores->nombre}}</td>
+            <td>{{$jugadores->goles}}</td>
+            <td>{{$jugadores->partidos}}</td>
             </tr>
-            <tr>
-            <td><img src="/img/images/jugador.png" height="20"></td>
-            <td>David Fernandez</td>
-            <td>8</td>
-            <td>8</td>
-            </tr>
-            <tr>
-            <td><img src="/img/images/jugador.png" height="20"></td>
-            <td>David Fernandez</td>
-            <td>8</td>
-            <td>8</td>
-            </tr>
+            @endforeach
         </tbody>
         </table>
     </div>
