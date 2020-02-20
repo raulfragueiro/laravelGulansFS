@@ -17,10 +17,14 @@
     <div class="row">
     <div class="col-10">
         <h5 class="feature-title text-center">Goleadores</h5>
-        <table id="dtBasicExample" class="table table-striped table-bordered text-center" cellspacing="0" width="100%">
+        <table id="dtBasicExample" class="table table-striped table-bordered text-center table-sm " cellspacing="0" width="100%">
         <thead class="green">
             <tr>
+            <th class="th-sm">
+            </th>
             <th class="th-sm">Nombre
+            </th>
+            <th class="th-sm">Apellido
             </th>
             <th class="th-sm">Goles.
             </th>
@@ -31,9 +35,11 @@
         <tbody>
         @foreach ($jugadores as $jugadores)
             <tr>
-            <td>{{$jugadores->nombre}}</td>
-            <td>{{$jugadores->goles}}</td>
-            <td>{{$jugadores->partidos}}</td>
+            <td><img src="{{$jugadores->imagen}}" width="40px" height="40px"></td>
+            <td class="align-middle">{{$jugadores->nombre}}</td>
+            <td class="align-middle">{{$jugadores->apellidos}}</td>
+            <td class="align-middle">{{$jugadores->goles}}</td>
+            <td class="align-middle">{{$jugadores->partidos}}</td>
             </tr>
             @endforeach
         </tbody>
