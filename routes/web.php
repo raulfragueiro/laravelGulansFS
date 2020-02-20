@@ -21,3 +21,7 @@ Route::get('/','PlayersController@index' )->name('home');
 Route::get('/club', function () {
     return view('club');
 });
+
+Route::get('/contacto', function () {
+    return view('contacto');
+});

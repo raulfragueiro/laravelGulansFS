@@ -28,7 +28,7 @@
                 aria-haspopup="true" aria-expanded="false">Club</a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="/club">Datos do Club</a>
-                <a class="dropdown-item" href="#">Contacto</a>
+                <a class="dropdown-item" href="/contacto">Contacto</a>
               </div>
             </li>
             <li class="nav-item dropdown">
