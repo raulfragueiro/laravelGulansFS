@@ -19,7 +19,7 @@
             body,
             header,
             .carousel {
-                height: 60vh;
+                height: 50vh;
             }
 
             @media (max-width: 740px) {
@@ -50,7 +50,7 @@
   <body>
 
     <!-- Start your project here-->  
-
+    
     @include('layouts.navbar')
     <!--Main layout-->
     <main>

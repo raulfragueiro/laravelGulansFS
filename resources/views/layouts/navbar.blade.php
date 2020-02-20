@@ -3,7 +3,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
       <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand" href="index.html" target="_blank">
+        <a class="navbar-brand" href="/" target="_blank">
           <img src="{{ asset('mdbootstrap411/img/images/logo.png') }}" height="50">
         </a>
 
@@ -19,7 +19,7 @@
           <!-- Barra Izquierda -->
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio
+              <a class="nav-link" href="/">Inicio
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -27,7 +27,7 @@
               <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">Club</a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Datos do Club</a>
+                <a class="dropdown-item" href="/club">Datos do Club</a>
                 <a class="dropdown-item" href="#">Contacto</a>
               </div>
             </li>

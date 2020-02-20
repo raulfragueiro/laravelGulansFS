@@ -16,3 +16,8 @@
 });*/
 
 Route::get('/','PlayersController@index' )->name('home');
+
+
+Route::get('/club', function () {
+    return view('club');
+});
