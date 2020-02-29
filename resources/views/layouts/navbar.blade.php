@@ -3,7 +3,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
       <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand" href="/" target="_blank">
+        <a class="navbar-brand" href="/">
           <img src="{{ asset('mdbootstrap411/img/images/logo.png') }}" height="50">
         </a>
 
@@ -36,16 +36,16 @@
                 aria-haspopup="true" aria-expanded="false">Primer Equipo</a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="/plantilla">Plantilla</a>
-                <a class="dropdown-item" href="#">Estadísticas</a>
-                <a class="dropdown-item" href="#">Liga Metropolitana</a>
-                <a class="dropdown-item" href="#">Agenda</a>
+                <a class="dropdown-item" href="/stats">Estadísticas</a>
+                <a class="dropdown-item" href="/liga">Liga Metropolitana</a>
+                <a class="dropdown-item" href="/agenda">Agenda</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="" target="_blank">Tenda</a>
+              <a class="nav-link" href="/shop">Tenda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="" target="_blank">Patrocinadores</a>
+              <a class="nav-link" href="/sponsors">Patrocinadores</a>
             </li>
           </ul>
 

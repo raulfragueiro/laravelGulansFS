@@ -12,4 +12,13 @@ class PlayersController extends Controller
         return view('welcome',compact('jugadores'));
     }
 
+    public function stats(){
+        $jugadores = Players::all();
+        return view('stats',compact('jugadores'));
+    }
+
+    public function playerView($nombre){
+        $jugadores = Players::find($nombre);
+        return view ('view',compact('jugadores'));
+    }
 }

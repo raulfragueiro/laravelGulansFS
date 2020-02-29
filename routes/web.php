@@ -29,3 +29,21 @@ Route::get('/contacto', function () {
 Route::get('/plantilla', function () {
     return view('plantilla');
 });
+
+Route::get('/stats','PlayersController@stats' )->name('stats');
+
+Route::get('/liga', function () {
+    return view('liga');
+});
+
+Route::get('/agenda', function () {
+    return view('agenda');
+});
+
+Route::get('/sponsors', function () {
+    return view('sponsors');
+});
+
+Route::get('/plantilla/xoel', function () {
+    return view('jugadores.xoel');
+});
